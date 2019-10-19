@@ -15,21 +15,16 @@ from collections import defaultdict
 
 #Create python dictionary with names as keys, values as list
 studentprefers = dictionary1
-
-#print(studentprefers)
+print(studentprefers)
 
 programprefers = dictionary2
-
-#print(programprefers)
+print(programprefers)
 
 programSlots = dictionary3
-
 #print(programSlots)
  
 students = sorted(studentprefers.keys())
 programs = sorted(programprefers.keys())
-
-
  
 def matchmaker():
     studentsfree = students[:]
@@ -74,7 +69,7 @@ def matchmaker():
                         studentsfree.append(student)
                     else:
                         studentslost.append(student)
-    print 
+    #print 
     for lostsoul in studentslost:
         print('%s did not match' % lostsoul)
     return (matched, studentslost)
@@ -125,10 +120,10 @@ def check(matched):
 print('\nPlay-by-play:')
 (matched, studentslost) = matchmaker()
 
-print('\nCouples:')
+print('\nMatches:')
 print('  ' + ',\n  '.join('%s is matched to %s' % couple
                           for couple in sorted(matched.items())))
-print
+#print
 print('Match stability check PASSED'
       if check(matched) else 'Match stability check FAILED')
  
@@ -136,6 +131,6 @@ print('\n\nSwapping two matches to introduce an error')
 matched[programs[0]], matched[programs[1]] = matched[programs[1]], matched[programs[0]]
 for program in programs[:2]:
     print('  %s is now matched to %s' % (program, matched[program]))
-print
+#print
 print('Match stability check PASSED'
       if check(matched) else 'Match stability check FAILED')

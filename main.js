@@ -122,7 +122,7 @@ function download(){
 		'American Express':  ['Jessica', 'George', 'Hannah', 'Faith', 'Brian', 'Alex'],
 		'Visa': ['George', 'Jessica', 'Brian', 'Alex', 'Ian', 'Dana'],
 		'Mastercard':  ['Ian', 'Cassie', 'Hannah', 'George', 'Faith', 'Brian'],
-		'General':  ['Edward', 'Hannah', 'George', 'Alex', 'Brian', 'Jessica'],
+		'Morgan Stanley':  ['Edward', 'Hannah', 'George', 'Alex', 'Brian', 'Jessica'],
 	}
   
 

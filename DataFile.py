@@ -8,12 +8,12 @@ with open('CompanyProfiles.csv','a') as csvFile:
     filecomp.write('\n')
 
 for row in range (970):
-    posId = random.randint(1, 5000)
+    posId = random.randint(1, 971)
     openslots = random.randint(1, 5)
     row = ['Company %d' % (row),'Position Title', '%d' %posId, '%d'%openslots]
-    for stud in range (37):
-        studrank = random.randint(1, 36)
-        studId = random.randint(1, 999999)
+    for stud in range (36):
+        studrank = random.randint(1, 37)
+        studId = random.randint(1, 501)
         row.append('SID: %d'%studId)
 
     with open('CompanyProfiles.csv', 'a') as csvFile:
@@ -31,11 +31,11 @@ with open('StudentProfiles.csv','a') as csvFile:
 
 for row in range (500):
     studId = random.randint(1, 501)
-    posId = random.randint(1, 5000)
-    posId2 = random.randint(1,5000)
-    posId3 = random.randint(1, 5000)
-    posId4 = random.randint(1, 5000)
-    posId5 = random.randint(1, 5000)
+    posId = random.randint(1, 971)
+    posId2 = random.randint(1,971)
+    posId3 = random.randint(1, 971)
+    posId4 = random.randint(1, 971)
+    posId5 = random.randint(1, 971)
 
     row = 'Student Name','School Name ', '%d' %studId,'%d' %posId,'%d' %posId2,'%d' %posId3,'%d' %posId4,'%d' %posId5
 

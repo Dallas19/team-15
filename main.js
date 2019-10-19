@@ -120,7 +120,7 @@ function download(){
 		'Goldman Sachs':  ['Jessica', 'Hannah', 'Faith', 'Dana', 'Alex', 'George'],
 		'Paycom':  ['Brian', 'Alex', 'Edward', 'Ian', 'Jessica', 'Dana'],
 		'American Express':  ['Jessica', 'George', 'Hannah', 'Faith', 'Brian', 'Alex'],
-		'Deaconess': ['George', 'Jessica', 'Brian', 'Alex', 'Ian', 'Dana'],
+		'Visa': ['George', 'Jessica', 'Brian', 'Alex', 'Ian', 'Dana'],
 		'Mission':  ['Ian', 'Cassie', 'Hannah', 'George', 'Faith', 'Brian'],
 		'General':  ['Edward', 'Hannah', 'George', 'Alex', 'Brian', 'Jessica'],
 	}

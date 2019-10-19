@@ -10,6 +10,7 @@
 
 import copy
 import parse
+import csv
 from parse import dictionary1, dictionary2, dictionary3
 from collections import defaultdict
 
@@ -21,7 +22,7 @@ programprefers = dictionary2
 print(programprefers)
 
 programSlots = dictionary3
-#print(programSlots)
+print(programSlots)
  
 students = sorted(studentprefers.keys())
 programs = sorted(programprefers.keys())
@@ -120,9 +121,13 @@ def check(matched):
 print('\nPlay-by-play:')
 (matched, studentslost) = matchmaker()
 
-print('\nMatches:')
-print('  ' + ',\n  '.join('%s is matched to %s' % couple
-                          for couple in sorted(matched.items())))
+print('\nMatches written to output file')
+# write to csv file
+with open('Matches.csv', mode='w') as ofile:
+    csv_writer = csv.writer(ofile)
+    for couple in sorted(matched.items()):
+        csv_writer.writerow(couple) 
+
 #print
 print('Match stability check PASSED'
       if check(matched) else 'Match stability check FAILED')

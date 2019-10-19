@@ -113,7 +113,7 @@ function download(){
   	}
 
 	let dataSet = {
-		'American':  ['Brian', 'Faith', 'Jessica', 'George', 'Ian', 'Alex'],
+		'JPMorgan Chase':  ['Brian', 'Faith', 'Jessica', 'George', 'Ian', 'Alex'],
 		'City':  ['Brian', 'Alex', 'Cassie', 'Faith', 'George', 'Dana'],
 		'County': ['Faith', 'Brian', 'Edward', 'George', 'Hannah', 'Cassie'],
 		'Fairview':  ['Faith', 'Jessica', 'Cassie', 'Alex', 'Ian', 'Hannah'],

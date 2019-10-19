@@ -117,7 +117,7 @@ function download(){
 		'CitiBank':  ['Brian', 'Alex', 'Cassie', 'Faith', 'George', 'Dana'],
 		'Bank Of America': ['Faith', 'Brian', 'Edward', 'George', 'Hannah', 'Cassie'],
 		'Capital One':  ['Faith', 'Jessica', 'Cassie', 'Alex', 'Ian', 'Hannah'],
-		'Mercy':  ['Jessica', 'Hannah', 'Faith', 'Dana', 'Alex', 'George'],
+		'Goldman Sachs':  ['Jessica', 'Hannah', 'Faith', 'Dana', 'Alex', 'George'],
 		'Saint Mark':  ['Brian', 'Alex', 'Edward', 'Ian', 'Jessica', 'Dana'],
 		'Park':  ['Jessica', 'George', 'Hannah', 'Faith', 'Brian', 'Alex'],
 		'Deaconess': ['George', 'Jessica', 'Brian', 'Alex', 'Ian', 'Dana'],

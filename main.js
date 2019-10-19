@@ -24,5 +24,10 @@ function upload(evt) {
 };
 
 function check() {
-	alert("hihihi");
+	if (document.getElementById("fileA-input").value == "" || 
+	document.getElementById("fileB-input").value == "") {
+		alert("Please upload both files at the same time before submitting...")
+	} else {
+		alert("both files there!");
+	}
 };

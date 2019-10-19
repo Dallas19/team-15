@@ -30,7 +30,7 @@ with open('StudentProfiles.csv','a') as csvFile:
     filestudent.write('\n')
 
 for row in range (500):
-    studId = random.randint(1, 999999)
+    studId = random.randint(1, 501)
     posId = random.randint(1, 5000)
     posId2 = random.randint(1,5000)
     posId3 = random.randint(1, 5000)

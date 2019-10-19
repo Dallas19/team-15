@@ -114,7 +114,7 @@ function download(){
 
 	let dataSet = {
 		'JPMorgan Chase':  ['Brian', 'Faith', 'Jessica', 'George', 'Ian', 'Alex'],
-		'City':  ['Brian', 'Alex', 'Cassie', 'Faith', 'George', 'Dana'],
+		'CitiBank':  ['Brian', 'Alex', 'Cassie', 'Faith', 'George', 'Dana'],
 		'County': ['Faith', 'Brian', 'Edward', 'George', 'Hannah', 'Cassie'],
 		'Fairview':  ['Faith', 'Jessica', 'Cassie', 'Alex', 'Ian', 'Hannah'],
 		'Mercy':  ['Jessica', 'Hannah', 'Faith', 'Dana', 'Alex', 'George'],

@@ -121,7 +121,7 @@ function download(){
 		'Paycom':  ['Brian', 'Alex', 'Edward', 'Ian', 'Jessica', 'Dana'],
 		'American Express':  ['Jessica', 'George', 'Hannah', 'Faith', 'Brian', 'Alex'],
 		'Visa': ['George', 'Jessica', 'Brian', 'Alex', 'Ian', 'Dana'],
-		'Mission':  ['Ian', 'Cassie', 'Hannah', 'George', 'Faith', 'Brian'],
+		'Mastercard':  ['Ian', 'Cassie', 'Hannah', 'George', 'Faith', 'Brian'],
 		'General':  ['Edward', 'Hannah', 'George', 'Alex', 'Brian', 'Jessica'],
 	}
   

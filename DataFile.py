@@ -1,12 +1,14 @@
 import csv
 import random
 
+#Create a csv file with headers
 filecomp = open("CompanyProfiles.csv", "w")
 with open('CompanyProfiles.csv','a') as csvFile:
     header = 'Company Name', 'Position Title', 'PID', 'Open Slots', 'Rankings Left to Right by ID numbers'
     filecomp.write(','.join((header)))
     filecomp.write('\n')
 
+#Randomize input data for the company csv file
 for row in range (970):
     posId = random.randint(1, 971)
     openslots = random.randint(1, 5)
@@ -22,13 +24,14 @@ for row in range (970):
         filecomp.write('\n')
 filecomp.close()
 
-#Student Profile CSV generator
+#Create Student Profile csv
 filestudent = open("StudentProfiles.csv", "w")
 with open('StudentProfiles.csv','a') as csvFile:
     header = 'Student Name', 'School Name', 'Student ID', 'PID Rank 1', 'PID Rank 2','PID Rank 3','PID Rank 4','PID Rank 5'
     filestudent.write((','.join(header)))
     filestudent.write('\n')
 
+#Randomize input data for the company csv file
 for row in range (500):
     studId = random.randint(1, 501)
     posId = random.randint(1, 971)

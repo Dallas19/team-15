@@ -11,3 +11,5 @@ At its current state, there are five parts to this application:
   3. **Processing the datasets** to produce (semi-) stable matchings of company/position and student. 
   4. Passing the resulting matchings to the client and **presenting it as a formatted chart.** 
   5. An extra addition was made to the project which introduced an **Angular front-end** to various parts of the web application.
+
+##### The code ("Code") in this repository was created solely by the student teams during a coding competition hosted by JPMorgan Chase Bank, N.A. ("JPMC").						JPMC did not create or contribute to the development of the Code.  This Code is provided AS IS and JPMC makes no warranty of any kind, express or implied, as to the Code,						including but not limited to, merchantability, satisfactory quality, non-infringement, title or fitness for a particular purpose or use.
